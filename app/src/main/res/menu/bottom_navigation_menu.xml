@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/page_check_pill"
+        android:enabled="true"
+        android:icon="@drawable/ic_baseline_check_24"
+        android:title="@string/page_name_check_pill"/>
+    <item
+        android:id="@+id/page_pill_list"
+        android:enabled="true"
+        android:icon="@drawable/ic_baseline_list_24"
+        android:title="@string/page_name_pill_list"/>
+    <item
+        android:id="@+id/page_search"
+        android:enabled="true"
+        android:icon="@drawable/ic_baseline_search_24"
+        android:title="@string/page_name_search"/>
+    <item
+        android:id="@+id/page_find"
+        android:enabled="true"
+        android:icon="@drawable/ic_pharmacy_shop_50"
+        android:title="@string/page_name_find"/>
+    <item
+        android:id="@+id/page_calendar"
+        android:enabled="true"
+        android:icon="@drawable/ic_baseline_calendar_today_24"
+        android:title="@string/page_name_calendar"/>
+
+
+
+
+</menu>

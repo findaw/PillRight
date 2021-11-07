@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SearchFragment"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60sp"
+        android:orientation="horizontal"
+        android:padding="10dp"
+        >
+        <Button
+            android:layout_weight="1"
+            android:id="@+id/button_find_hospital"
+            android:text="@string/button_name_find_hospital"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@color/findButton"
+            android:textColor="@color/appWhite"
+            android:textSize="18sp"
+            android:radius="20dp"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            />
+
+        <Button
+            android:layout_weight="1"
+            android:id="@+id/button_find_pharmacy"
+            android:text="@string/button_name_find_pharmacy"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@color/findButton"
+            android:textColor="@color/appWhite"
+            android:textSize="18sp"
+            android:radius="20dp"
+            android:layout_marginLeft="20dp"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            />
+
+    </LinearLayout>
+
+    <WebView
+        android:id="@+id/web_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+
+</LinearLayout>

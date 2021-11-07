@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="appBlue">#148CFF</color>
+
+    <color name="appCoBlue">#1478FF</color>
+    <color name="appCoBlueClick">#1478FF</color>
+    <color name="appWhite">#FFFFFF</color>
+    <color name="background_primary">#FFFFFD</color>
+    <color name="colorWhite">#ffffff</color>
+    <color name="colorSpringGreen">#00ff7f</color>
+    <color name="colorTomato">#ff6347</color>
+    <color name="colorGreen">#c4e693</color>
+    <color name="colorGreen2">#abdc65</color>
+
+    <!-- Main Component Color -->
+    <color name="appTextColor">#a8d354</color>
+    <color name="naviColor">#b7db79</color>
+    <color name="naviClickColor">#92c100</color>
+
+    <!-- pill List Fragment Color -->
+    <color name="pillItemOptionButton">#c4e693</color>
+
+    <!-- Setting Activity Color -->
+    <color name="settingWeekButtonClick">#bad65e</color>
+    <color name="settingWeekButton">#bad65e</color>
+    <color name="settingTimeButton">#bad65e</color>
+
+    <!-- Find Fragment Color -->
+    <color name="findButton">#1662BA</color>
+    <color name="findButtonClick">#0A3A8E</color>
+
+    <!-- Calendar Fragment Color -->
+    <color name="calendarColor">#9dc106</color>
+    <color name="calendarDarkColor">#7aa005</color>
+    <color name="calendarAccentColor">#9dc106</color>
+
+    <color name="doneListButton">#24ce58</color>
+    <color name="doneListClickButton">#24ce58</color>
+    <color name="doneListLaterButton">#ffa500</color>
+
+</resources>
